@@ -1,0 +1,21 @@
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+Host vtr-office-vm
+    HostName 192.168.77.100 
+    User remroot
+    IdentityFile /Users/spatinolang/.ssh/id_rsa
+Host vtr-dev-lightsail
+    HostName 18.196.30.166 
+    User ubuntu
+    IdentityFile /Users/spatinolang/.ssh/id_rsa
+Host vtr-prod-ops
+    HostName 52.57.97.209
+    User ubuntu
+    IdentityFile /Users/spatinolang/.ssh/id_rsa
+Host vtr-prod-apps
+    HostName 52.57.97.209
+    User viantro
+    IdentityFile /Users/spatinolang/.ssh/id_rsa
+Host vtr-prod-wp
+    HostName 3.121.5.185
+    User admin
+    IdentityFile /Users/spatinolang/.ssh/id_rsa
